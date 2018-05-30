@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	System.out.println("calling git");
+    	System.out.println("calling git3333");
          Configuration cfg=new Configuration();
          cfg.configure("hibernate.cfg.xml");
          
