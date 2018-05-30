@@ -12,7 +12,7 @@ public class App
     	System.out.println("calling git333377777000");
          Configuration cfg=new Configuration();
          cfg.configure("hibernate.cfg.xml");
-         
+         System.out.println("after git config");
          SessionFactory sf=cfg.buildSessionFactory();
          Session session =sf.openSession();
          Transaction tx=session.beginTransaction();
