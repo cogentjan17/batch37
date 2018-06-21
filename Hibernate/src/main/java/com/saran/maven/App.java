@@ -7,6 +7,8 @@ import org.hibernate.cfg.Configuration;
 
 public class App 
 {
+	
+	//Git comment
     public static void main( String[] args )
     {
     	System.out.println("calling git333377777000");
